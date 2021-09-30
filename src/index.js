@@ -109,4 +109,9 @@ app.put("/account", verifyExistsAccountCPF, (request, response) => {
     return response.status(201).send();
 });
 
+app.get("/account",verifyExistsAccountCPF, (request, response) =>{
+    const { customer } = request;
+    return response.json(customer);
+});
+
 app.listen(9090)
