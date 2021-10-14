@@ -16,16 +16,18 @@
 API financeira estatica
 
 ## ✨ Tecnologias
+
 - Node
 - JavaScript
 - Insomnia
-- express
-- nodemon
-
 ## 📚 Bibliotecas
+
 - uuid
- 
+- nodemon
+- express 
+
 ## 💻 Funcionalidades
+
 - Criar conta
 - Criar Depositos
 - Mostrar Depositos
